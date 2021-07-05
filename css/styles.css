@@ -102,6 +102,10 @@ img {
   letter-spacing: 0.02em;
 
   color: #212121;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-item:not(:last-child) {
   margin-right: 50px;
@@ -130,6 +134,10 @@ img {
 
   display: flex;
   align-items: center;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-mail:hover,
 .contacts-mail:focus {
@@ -146,6 +154,9 @@ img {
 
   display: flex;
   align-items: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-phone-number:hover,
 .contacts-phone-number:focus {
@@ -154,10 +165,6 @@ img {
 .icon-contact {
   fill: currentColor;
   margin-right: 10px;
-}
-.icon-contact:hover,
-.icon-contact:focus {
-  color: var(--accent-color);
 }
 .header-container {
   display: flex;
@@ -434,6 +441,10 @@ body {
   height: 44px;
   border-radius: 50%;
   fill: #afb1b8;
+
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link:hover,
 .social-list-link:focus {
@@ -465,6 +476,10 @@ body {
 
   display: flex;
   align-items: center;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-partners-list:hover,
 .our-partners-list:focus {
@@ -484,10 +499,19 @@ body {
   height: 92px;
   left: 215px;
   top: 2493px;
-
+}
+.our-partners-item {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.our-partners-item:hover,
+.our-partners-item:focus {
+  border: 1px solid var(--accent-color);
 }
 .our-partners-item:not(:last-child) {
   margin-right: 30px;
@@ -567,6 +591,10 @@ body {
   letter-spacing: 0.03em;
 
   color: #ffffff;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-mail {
   font-style: normal;
@@ -576,7 +604,12 @@ body {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .address-phone {
   font-style: normal;
   font-weight: 400;
@@ -585,6 +618,10 @@ body {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-company:hover,
 .address-company:focus {
@@ -615,6 +652,9 @@ body {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
@@ -643,6 +683,10 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
   padding: 6px 22px;
+
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-btn-item:not(:last-child) {
@@ -697,6 +741,10 @@ body {
 
   margin-top: 30px;
   margin-left: 30px;
+
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item-card:hover,
 .portfolio-item-card:focus {
