@@ -59,8 +59,14 @@
     </header>
     <!--HeroSection-->
     <main>
-      <div class="backdrop">
-        <div class="modal-window"></div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal-window">
+          <button class="button-close" data-modal-close>
+            <svg width="18px" height="18px">
+              <use href="./images/close-button.svg#icon-close-button"></use>
+            </svg>
+          </button>
+        </div>
       </div>
 
       <section class="hero">
@@ -69,7 +75,7 @@
             Эффективные решения<br />
             для вашего бизнеса
           </h1>
-          <button class="modal-btn" type="button">Заказать услугу</button>
+          <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!--Advantages-->
@@ -432,5 +438,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
