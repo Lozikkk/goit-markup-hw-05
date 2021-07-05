@@ -227,6 +227,19 @@ body {
 
   color: #ffffff;
 }
+/*-------------------modalWindow---------------*/
+.backdrop {
+  position: absolute;
+  width: 1600px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/*-------------------endModalWindow------------*/
+
 /*------------------End Hero-------------------*/
 
 /*----------------Advantages--------------------*/
