@@ -276,12 +276,12 @@ body {
   top: 0px;
 
   opacity: 1;
-  visibility: visible;
+
   pointer-events: auto;
   background: rgba(0, 0, 0, 0.2);
   transform: scale(1);
 
-  transition: opacity 5000ms var(--timing-function), visibility 5000ms var(--timing-function);
+  transition: opacity 250ms var(--timing-function), visibility 250ms var(--timing-function);
 }
 .backdrop.is-hidden {
   opacity: 0;
@@ -554,13 +554,18 @@ body {
 
   display: flex;
   align-items: center;
+}
+.our-partners-list-link {
+  fill: #afb1b8;
 
+  display: flex;
+  align-items: center;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.our-partners-list:hover,
-.our-partners-list:focus {
+.our-partners-list-link:hover,
+.our-partners-list-link:focus {
   fill: var(--accent-color);
 }
 .icon-partners {
