@@ -558,15 +558,21 @@ body {
 .our-partners-list-link {
   fill: #afb1b8;
 
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+
   display: flex;
   align-items: center;
-  transition-property: fill;
+  transition-property: fill, border;
+
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-partners-list-link:hover,
 .our-partners-list-link:focus {
   fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 .icon-partners {
   display: flex;
@@ -582,19 +588,6 @@ body {
   height: 92px;
   left: 215px;
   top: 2493px;
-}
-.our-partners-item {
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-
-  transition-property: border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.our-partners-item:hover,
-.our-partners-item:focus {
-  border: 1px solid var(--accent-color);
 }
 .our-partners-item:not(:last-child) {
   margin-right: 30px;
