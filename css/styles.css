@@ -864,7 +864,7 @@ body {
   letter-spacing: 0.03em;
 
   color: #ffffff;
-  background-color: var(--accent-color);
+  background: rgba(33, 150, 243, 0.9);
 
   transform: translateY(0);
   transition: transform 250ms var(--timing-function);
