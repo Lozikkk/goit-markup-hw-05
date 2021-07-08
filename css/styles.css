@@ -129,6 +129,10 @@ img {
 .contacts-list {
   margin-left: auto;
 }
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
 .menu-link:hover::after,
 .menu-link:focus::after {
   color: var(--accent-color);
