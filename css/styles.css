@@ -556,6 +556,16 @@ body {
   align-items: center;
 }
 .our-partners-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  width: 170px;
+  height: 92px;
+  left: 215px;
+  top: 2493px;
+
   fill: #afb1b8;
 
   border: 1px solid #afb1b8;
@@ -578,17 +588,7 @@ body {
   display: flex;
   align-items: center;
 }
-.our-partners-group {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-  display: flex;
-  width: 170px;
-  height: 92px;
-  left: 215px;
-  top: 2493px;
-}
 .our-partners-item:not(:last-child) {
   margin-right: 30px;
 }
